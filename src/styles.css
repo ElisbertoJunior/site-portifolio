@@ -12,3 +12,23 @@ body {
   background-color: rgb(2, 3, 26);
   color: white;
 }
+
+span  {
+  color: transparent;
+  background: linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.decor {
+  height: 0.5rem;
+  width: 7rem;
+  border-radius: 1px;
+  background: linear-gradient(#33A8DB, #1472B7);
+}
+
+
+.decor:hover {
+  transition: 500ms;
+  width: 15rem;
+}

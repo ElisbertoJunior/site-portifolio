@@ -1,0 +1,25 @@
+.tech__content {
+  max-width: 90rem;
+  margin: 0 auto;
+
+}
+
+.tech__title {
+  padding: 2.5rem 0.625rem;
+}
+
+.tech__title > h2 {
+  font-size: 2.188rem;
+}
+
+.tech-img__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.625rem 0.625rem 0;
+
+}
+
+
+
+

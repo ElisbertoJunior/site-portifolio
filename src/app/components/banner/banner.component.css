@@ -1,0 +1,37 @@
+.content {
+  padding-top: 10%;
+  height: 60vh;
+  background:  url('src/assets/images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+.banner__container {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.title__conatiner {
+  font-size: 2.5rem;
+  width: 50%;
+}
+
+
+.title__conatiner > h2 {
+  text-align: left;
+}
+
+.image__container {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
