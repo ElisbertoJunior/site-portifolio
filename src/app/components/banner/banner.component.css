@@ -1,10 +1,10 @@
 .content {
-  padding-top: 10%;
-  height: 60vh;
+  padding-top: 5%;
+  height: 70vh;
   background:  url('src/assets/images/banner.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
+
 
 }
 
