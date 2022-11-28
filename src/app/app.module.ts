@@ -10,6 +10,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { BannerComponent } from './components/banner/banner.component';
 
 import { TechnologiesComponent } from './components/technologies/technologies.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TechnologiesComponent } from './components/technologies/technologies.co
     HomeComponent,
     MenuBarComponent,
     BannerComponent,
-    TechnologiesComponent
+    TechnologiesComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
