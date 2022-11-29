@@ -11,6 +11,7 @@ import { BannerComponent } from './components/banner/banner.component';
 
 import { TechnologiesComponent } from './components/technologies/technologies.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     MenuBarComponent,
     BannerComponent,
     TechnologiesComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
