@@ -1,4 +1,9 @@
 .footer__content {
-  height: 100px;
   background-color: rgb(39, 39, 63);
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 90rem;
+  
 }
