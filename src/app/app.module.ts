@@ -12,6 +12,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { TechnologiesComponent } from './components/technologies/technologies.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MainButtonComponent } from './components/main-button/main-button.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     TechnologiesComponent,
     AboutMeComponent,
-    FooterComponent
+    FooterComponent,
+    MainButtonComponent
   ],
   imports: [
     BrowserModule,
