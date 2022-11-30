@@ -31,3 +31,10 @@
 .about__description {
   width: 50%;
 }
+
+.button__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}

@@ -1,0 +1,17 @@
+button {
+  width: 12.5rem;
+  height: 3.125rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#33A8DB, #1472B7);
+  color: wheat;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(61, 86, 223);
+}
