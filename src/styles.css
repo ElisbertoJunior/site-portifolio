@@ -13,4 +13,11 @@ body {
   color: white;
 }
 
+span  {
+  color: transparent;
+  background: linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 

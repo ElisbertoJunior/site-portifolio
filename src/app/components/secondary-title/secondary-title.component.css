@@ -6,13 +6,6 @@
   font-size: 2.5rem;
 }
 
-span  {
-  color: transparent;
-  background: linear-gradient(#33A8DB, #1472B7);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 .decor {
   height: 0.5rem;
   width: 7rem;
