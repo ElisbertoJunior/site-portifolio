@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MainButtonComponent } from './components/main-button/main-button.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { SecondaryTitleComponent } from './components/secondary-title/secondary-title.component';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SecondaryTitleComponent } from './components/secondary-title/secondary-
     FooterComponent,
     MainButtonComponent,
     ProjectsComponent,
-    SecondaryTitleComponent
+    SecondaryTitleComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
