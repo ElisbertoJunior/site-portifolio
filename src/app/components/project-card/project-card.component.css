@@ -1,9 +1,38 @@
 .card__container {
-  border: 1px solid white;
+  background-color: rgb(12, 9, 48);
   width: 100%;
-  padding: 0.625rem;
+  padding: 1.25rem;
+  border-radius: 0.313rem;
+  -webkit-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  -moz-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  margin-bottom: 2.5rem;
+}
+
+.card__container:hover {
+  transition: 0.8s;
+  transform: scale(1.10, 1.10);
+  cursor: pointer;
 }
 
 .img-container > img {
   width: 100%;
+  border-radius: 0.313rem
+}
+
+.card-description  {
+  color: rgb(97, 95, 95);
+  margin: 0.625rem 0;
+}
+
+.card-buttons {
+  margin: 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.card-buttons > button {
+  padding: 0.5rem;
 }
