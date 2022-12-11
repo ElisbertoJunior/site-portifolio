@@ -2,11 +2,14 @@
   max-width: 90rem;
   margin: 0 auto;
 
+
 }
 
 .about__container {
   display: flex;
-  max-width: 1000px;
+
+  justify-content: space-between;
+  max-width: 1200px;
   margin: 3.125rem auto;
 }
 
@@ -32,5 +35,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin: 2.5rem 0;
 }
