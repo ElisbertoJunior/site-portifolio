@@ -6,6 +6,6 @@
 .project-cards__container {
   display: grid;
   gap: 3.125rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0.625rem;
 }
