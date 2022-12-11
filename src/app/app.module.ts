@@ -16,6 +16,8 @@ import { MainButtonComponent } from './components/main-button/main-button.compon
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { SecondaryTitleComponent } from './components/secondary-title/secondary-title.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ContactCardComponent } from './components/contact-card/contact-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
     MainButtonComponent,
     ProjectsComponent,
     SecondaryTitleComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    ContactComponent,
+    ContactCardComponent
   ],
   imports: [
     BrowserModule,

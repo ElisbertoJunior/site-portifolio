@@ -27,6 +27,11 @@
   list-style-type: none;
 }
 
+.list-menu__container > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .list-menu__container > ul > li > a:hover {
   font-weight: bold;
   cursor: pointer;
