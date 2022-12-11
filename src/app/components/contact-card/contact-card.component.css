@@ -1,4 +1,93 @@
-.contact-card__container {
+.contact-page__container {
   max-width: 90rem;
   margin: 0 auto;
 }
+
+.contact-card__container {
+  background-color: rgb(12, 9, 48);
+  width: 80%;
+  padding: 1.25rem;
+  margin: 2.5rem auto;
+  border-radius: 0.313rem;
+  -webkit-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  -moz-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+
+}
+
+.contact-card__content {
+  padding: 2.5rem;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.card__header > img{
+  width: 6.25rem;
+}
+
+.contact__buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin: 2.5rem 0 0 0;
+}
+
+.contact__buttons > button {
+  display: flex;
+  width: 250px;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  padding: 0.938rem ;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button_wapp {
+  background-color: #34af23;
+}
+
+.button_lk {
+  background-color: #0e76a8;
+}
+
+.button_gh {
+  background-color: #161616;
+}
+
+
+
+.contact__buttons > button:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact__buttons > button > img {
+  height: 25px;
+}
+
+.contact__buttons > button > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 860px) {
+  .contact__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    margin: 2.5rem 0 0 0;
+  }
+}
+
+
