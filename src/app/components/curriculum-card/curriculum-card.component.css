@@ -26,12 +26,37 @@
   margin: 1.875rem 0;
 }
 
-.adress {
-  display: flex;
-  gap: 0.313rem;
-
+.contact-informations {
+  margin-bottom: 30px;
 }
 
-.adress > p {
+.contact-informations  p {
   color: rgb(105, 105, 105);
 }
+
+.adress {
+  display: flex;
+  gap: 0.626rem;
+
+}
+
+.email,
+.git-hub,
+.linkedin {
+  display: flex;
+  gap: 0.626rem;
+  margin-top: 1.25rem;
+}
+
+.perfil-container {
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  justify-content: flex-start;
+
+}
+
+
+
+
