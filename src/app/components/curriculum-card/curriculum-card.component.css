@@ -57,6 +57,25 @@
 
 }
 
+.skills {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skills li {
+  margin-left: 15px;
+}
+
+.soft-skills,
+.hard-skills {
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
 
 
 
