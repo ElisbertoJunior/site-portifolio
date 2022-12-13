@@ -18,6 +18,8 @@ import { SecondaryTitleComponent } from './components/secondary-title/secondary-
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ContactCardComponent } from './components/contact-card/contact-card.component';
+import { CurriculumComponent } from './pages/curriculum/curriculum.component';
+import { CurriculumCardComponent } from './components/curriculum-card/curriculum-card.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ContactCardComponent } from './components/contact-card/contact-card.com
     SecondaryTitleComponent,
     ProjectCardComponent,
     ContactComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    CurriculumComponent,
+    CurriculumCardComponent
   ],
   imports: [
     BrowserModule,

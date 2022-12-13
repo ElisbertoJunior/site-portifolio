@@ -1,0 +1,37 @@
+.curriculum-page__container {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.curriculum-card__container {
+  background-color: rgb(12, 9, 48);
+  width: 80%;
+  padding: 1.25rem;
+  margin: 2.5rem auto;
+  border-radius: 0.313rem;
+  -webkit-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  -moz-box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+  box-shadow: 0px 1px 10px 4px rgba(45,36,89,1);
+}
+
+.curriculum-card__content {
+  padding: 2.5rem;
+}
+
+.curriculum-card__header {
+  margin-bottom: 1.875rem;
+}
+
+.curriculum-contact__container {
+  margin: 1.875rem 0;
+}
+
+.adress {
+  display: flex;
+  gap: 0.313rem;
+
+}
+
+.adress > p {
+  color: rgb(105, 105, 105);
+}
