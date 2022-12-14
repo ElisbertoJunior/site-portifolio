@@ -30,7 +30,9 @@
   margin-bottom: 30px;
 }
 
-.contact-informations  p {
+.contact-informations  p,
+.academic-record p,
+.experiences p {
   color: rgb(105, 105, 105);
 }
 
@@ -74,6 +76,16 @@
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
+}
+
+.academic-record,
+.experiences {
+  margin-top: 1.25rem;
+}
+
+.academic-training,
+.experience-content {
+  margin-top: 0.625rem;
 }
 
 
