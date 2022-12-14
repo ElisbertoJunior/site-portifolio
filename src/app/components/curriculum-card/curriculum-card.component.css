@@ -88,6 +88,12 @@
   margin-top: 0.625rem;
 }
 
+.download-button {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
