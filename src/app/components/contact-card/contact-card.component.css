@@ -1,6 +1,7 @@
 .contact-page__container {
   max-width: 90rem;
   margin: 0 auto;
+  height: 80vh;
 }
 
 .contact-card__container {
@@ -89,5 +90,7 @@
     margin: 2.5rem 0 0 0;
   }
 }
+
+
 
 

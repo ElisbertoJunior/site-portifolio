@@ -65,6 +65,44 @@
   padding: 20px;
 }
 
+.menu-mobile__list {
+  width: 100%;
+  padding: 1.25rem;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,36,94,1) 36%, rgba(35,104,119,1) 91%);
+  position: absolute;
+  z-index: 1;
+  top: 88px;
+  right: 0%;
+  display: none;
+}
+
+
+
+
+.menu-mobile__list li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+
+}
+
+.menu-mobile__list li:hover {
+  font-weight: bold;
+}
+
+.menu-mobile__list li a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.menu-mobile__list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 
 
 @media screen and (max-width: 768px) {

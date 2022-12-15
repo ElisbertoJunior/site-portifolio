@@ -17,13 +17,13 @@
 
 }
 
-.title__conatiner {
+.title__container {
   font-size: 2.5rem;
   width: 50%;
 }
 
 
-.title__conatiner > h2 {
+.title__container > h2 {
   text-align: left;
 }
 
@@ -32,6 +32,35 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 879px) {
+  .banner__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .title__container {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .title__container > h2 {
+    text-align: center;
+  }
+
+  .image__container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    z-index: -1;
+  }
+
+}
+
 
 
 
