@@ -89,6 +89,12 @@
     justify-content: center;
     margin: 2.5rem 0 0 0;
   }
+
+  .card__header > h2 {
+    font-size: 1rem;
+  }
+
+
 }
 
 

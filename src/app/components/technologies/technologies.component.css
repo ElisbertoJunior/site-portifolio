@@ -20,6 +20,19 @@
 
 }
 
+@media screen and (max-width: 878px) {
+  .tech-img__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+
+  }
+
+  .menu-mobile__img {
+
+  }
+}
+
 
 
 
