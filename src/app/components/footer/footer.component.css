@@ -1,9 +1,30 @@
-.footer__content {
+.footer__container {
   background-color: rgb(39, 39, 63);
 }
 
-.footer__container {
+.footer__content {
   margin: 0 auto;
+  padding: 1.25rem 0.313rem;
   max-width: 90rem;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(105, 105, 105);
 }
+
+.footer__content > h5 {
+  display: flex;
+  align-items: center;
+  gap: 0.313rem;
+}
+
+.footer__content ul li {
+  list-style-type: none;
+}
+
+.footer__content ul li a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+
+}
+
