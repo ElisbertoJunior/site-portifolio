@@ -73,11 +73,7 @@
   z-index: 1;
   top: 88px;
   right: 0%;
-  display: none;
 }
-
-
-
 
 .menu-mobile__list li {
   list-style: none;
@@ -100,10 +96,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 1.25rem;
 }
 
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
 
+}
+
+.disable {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .list-menu__container {

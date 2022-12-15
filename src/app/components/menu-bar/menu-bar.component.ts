@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
   showFiller: boolean = false
-
+  public myClass: boolean = false
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleClass() {
+    this.myClass = !this.myClass
   }
 
 }

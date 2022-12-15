@@ -18,16 +18,16 @@
     </div>
 
     <div class="menu-mobile__img">
-      <button>
+      <button (click)="toggleClass()">
         <mat-icon>menu</mat-icon>
       </button>
 
-    <div class="menu-mobile__list">
+    <div [ngClass]="myClass ? 'active' : 'disable'" class="menu-mobile__list">
       <ul>
-        <li [routerLink]="['']"><a>Home</a></li>
-        <li [routerLink]="['projects']"><a>Projetos</a></li>
-        <li [routerLink]="['contact']"><a>Contato</a></li>
-        <li [routerLink]="['curriculum']"><a>Curriculo</a></li>
+        <li [routerLink]="['']" (click)="toggleClass()"><a>Home</a></li>
+        <li [routerLink]="['projects']" (click)="toggleClass()"><a>Projetos</a></li>
+        <li [routerLink]="['contact']" (click)="toggleClass()"><a>Contato</a></li>
+        <li [routerLink]="['curriculum']" (click)="toggleClass()"><a>Curriculo</a></li>
         <li><a href="https://github.com/ElisbertoJunior" target="_blank">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/elisbertojunior/" target="_blank">LinkedIn</a></li>
       </ul>
