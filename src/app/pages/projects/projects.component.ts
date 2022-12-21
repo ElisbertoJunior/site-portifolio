@@ -8,9 +8,15 @@ import my_projects from 'src/assets/data/my_projects.json'
 })
 export class ProjectsComponent implements OnInit {
 
+  projectsList: any
+
   constructor() { }
 
   ngOnInit(): void {
+    if (my_projects) {
+      this.projectsList = my_projects.projects
+    }
+
   }
 
 }

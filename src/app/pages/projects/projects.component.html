@@ -6,11 +6,12 @@
 
   <div class="project-cards__container">
     <app-project-card
-    cardImg=""
-    CardTitle=""
-    cardDescription=""
-    testLink=""
-    repositoryLink=""
+      *ngFor="let project of projectsList"
+      cardImg="{{ project.project_img }}"
+      CardTitle="{{ project.title}}"
+      cardDescription="{{ project.description }}"
+      testLink="{{ project.test_project_link }}"
+      repositoryLink="{{ project.repository_link }}"
     ></app-project-card>
 
 
