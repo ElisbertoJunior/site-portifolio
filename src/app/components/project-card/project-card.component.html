@@ -1,16 +1,26 @@
-<div class="card__container">
-  <div class="project-card__content">
+
+<div class="card__container" *ngFor="let proj of projs">
+  <div class="project-card__content" >
     <div class="img-container">
-      <img src="https://thumbs.dreamstime.com/b/selo-do-exemplo-28420393.jpg"
+      <img src="{{ proj.project_img }}"
            alt="Imagem do projeto">
     </div>
 
-    <h2 class="card-title">Titulo do Projeto</h2>
-    <p class="card-description">Pequena descricao do projeto</p>
+    <h2 class="card-title">{{ proj.title }}</h2>
+    <p class="card-description">{{ proj.description }}</p>
 
     <div class="card-buttons">
-      <button class="test-project" >Testar Porjeto</button>
-      <button class="access-repository">Acessar Repositorio</button>
+      <button class="test-project">
+        <a href="{{ proj.test_project_link }}" target="_blank">
+         Testar Porjeto
+        </a>
+      </button>
+
+      <button class="access-repository">
+        <a href="{{ proj.repository_link }}">
+          Acessar Repositorio
+        </a>
+      </button>
     </div>
 
   </div>

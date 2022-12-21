@@ -21,6 +21,7 @@ import { ContactCardComponent } from './components/contact-card/contact-card.com
 import { CurriculumComponent } from './pages/curriculum/curriculum.component';
 import { CurriculumCardComponent } from './components/curriculum-card/curriculum-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
