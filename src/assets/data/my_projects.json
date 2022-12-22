@@ -2,11 +2,11 @@
   "projects": [
     {
       "id": 1,
-      "project_img": "https://st.depositphotos.com/2935381/4189/i/450/depositphotos_41897159-stock-photo-example-concept.jpg",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "src/assets/gifs/conv-moedas.gif",
+      "title": "Conversor de Moedas",
+      "description": "Aplicação construida com HTML, CSS e JavaScript puro faz requisições para Exchange rate API trazendo informações de cambio de varias moedas existentes. ",
+      "repository_link": "https://github.com/ElisbertoJunior/conversor-de-moedas",
+      "test_project_link": "https://elisbertojunior.github.io/conversor-de-moedas/"
     },
     {
       "id": 2,
@@ -31,6 +31,48 @@
       "description": "Aqui esta a descricao",
       "repository_link": "https://github.com/ElisbertoJunior/weather-app",
       "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+    },
+    {
+      "id": 5,
+      "project_img": "../images/perfil(2).png",
+      "title": "Projeto fulano",
+      "description": "Aqui esta a descricao",
+      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+    },
+    {
+      "id": 6,
+      "project_img": "../images/perfil(2).png",
+      "title": "Projeto fulano",
+      "description": "Aqui esta a descricao",
+      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+    },
+    {
+      "id": 7,
+      "project_img": "../images/perfil(2).png",
+      "title": "Projeto fulano",
+      "description": "Aqui esta a descricao",
+      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+    },
+    {
+      "id": 8,
+      "project_img": "../images/perfil(2).png",
+      "title": "Projeto fulano",
+      "description": "Aqui esta a descricao",
+      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+    },
+    {
+      "id": 9,
+      "project_img": "../images/perfil(2).png",
+      "title": "Projeto fulano",
+      "description": "Aqui esta a descricao",
+      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
     }
+
   ]
+
 }
