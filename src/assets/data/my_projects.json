@@ -27,50 +27,50 @@
     {
       "id": 4,
       "project_img": "assets/gifs/gameblog.gif",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "title": "Game Blog",
+      "description": "Projeto construido com Angular, se trata de um blog com tema de games que contem noticias e informações sobre o mundo gamer.",
+      "repository_link": "https://github.com/ElisbertoJunior/angular-blog",
+      "test_project_link": "https://game-blog-dyci.vercel.app/"
     },
     {
       "id": 5,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
+      "project_img": "assets/gifs/gitfav.gif",
+      "title": "Git Favorites",
+      "description": "Projeto construido com JavaScript puro, faz requisições para API do GitHub trazendo informacoes do perfil digitado, e adicionando em uma lista de favoritos. ",
+      "repository_link": "https://github.com/ElisbertoJunior/GitFav",
       "test_project_link": "https://elisbertojunior.github.io/GitFav/"
     },
     {
       "id": 6,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "assets/gifs/pokebuscador.gif",
+      "title": "Poke Buscador",
+      "description": "Projeto construido com Angular, traz informações de qualquer Pokemon  buscado pelo nome. ",
+      "repository_link": "https://github.com/ElisbertoJunior/services-pokeApi",
+      "test_project_link": "https://buscador-pokemon-api.vercel.app/"
     },
     {
       "id": 7,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "assets/gifs/pokedex.gif",
+      "title": "Pokedex",
+      "description": "Projeto Pokedex construido com JavaScript puro, faz requisições para pokeAPI e traz uma listagem com informções e tipos de Pokemons.",
+      "repository_link": "https://github.com/ElisbertoJunior/Pokedex",
+      "test_project_link": "https://elisbertojunior.github.io/Pokedex/"
     },
     {
       "id": 8,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "assets/gifs/todo.gif",
+      "title": "To-do List (Lista de Afazeres)",
+      "description": "Aplicação construida com JavaScript puro, se trata de uma lista de afazeres na qual o usuário pode adicionar, remover e buscar itens na aplicação. ",
+      "repository_link": "https://github.com/ElisbertoJunior/Todo-List-JS",
+      "test_project_link": "https://elisbertojunior.github.io/Todo-List-JS/"
     },
     {
       "id": 9,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
+      "project_img": "assets/gifs/weather-app.gif",
+      "title": "Weather App",
+      "description": "Aplicação construida com JavaScript puro, mostra a situalção atual do clima de qualquer cidade pesquisada. ",
       "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "test_project_link": "https://elisbertojunior.github.io/weather-app/"
     }
 
   ]

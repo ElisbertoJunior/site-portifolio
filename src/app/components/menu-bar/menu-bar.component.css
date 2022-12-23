@@ -15,12 +15,19 @@
 
 .title__container {
   margin-left: 0.313rem;
+
+}
+
+.title__container {
+  margin-bottom: -0.625rem;
+
 }
 
 .list-menu__container > ul {
   display: flex;
   gap: 0.938rem;
   margin-right: 0.313rem;
+  margin-top: 0.188rem;
 }
 
 .list-menu__container > ul > li {

@@ -22,6 +22,7 @@
 }
 
 .card-description  {
+  height: 6.25rem;
   color: rgb(97, 95, 95);
   margin: 0.625rem 0;
 }
@@ -68,5 +69,22 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 790px) {
+  .card-description  {
+    font-size: 15px;
+    height: 2rem;
+    color: rgb(97, 95, 95);
+    margin: 0.625rem 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .card-description  {
+    height: 6.25rem;
+    color: rgb(97, 95, 95);
+    margin: 0.625rem 0;
+  }
 }
 

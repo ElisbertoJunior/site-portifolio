@@ -19,7 +19,17 @@
   }
 }
 
-@media screen and (max-width: 670px) {
+
+@media screen and (max-width: 1200px) {
+  .project-cards__container {
+    display: grid;
+    gap: 3.125rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.625rem 2.5rem 2.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 790px) {
   .project-cards__container {
     display: grid;
     gap: 3.125rem;
