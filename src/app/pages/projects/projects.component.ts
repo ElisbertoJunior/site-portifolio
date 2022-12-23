@@ -15,6 +15,7 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
     if (my_projects) {
       this.projectsList = my_projects.projects
+
     }
 
   }

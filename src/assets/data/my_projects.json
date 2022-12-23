@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "project_img": "src/assets/gifs/conv-moedas.gif",
+      "project_img": "assets/gifs/conv-moedas.gif",
       "title": "Conversor de Moedas",
       "description": "Aplicação construida com HTML, CSS e JavaScript puro faz requisições para Exchange rate API trazendo informações de cambio de varias moedas existentes. ",
       "repository_link": "https://github.com/ElisbertoJunior/conversor-de-moedas",
@@ -10,23 +10,23 @@
     },
     {
       "id": 2,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "assets/gifs/buzzfeed.gif",
+      "title": "BuzzFeed Clone",
+      "description": "Projeto construido com Angular inspirado no BuzzFeed, um pequeno quiz que retorna um resultado calculando os tipos de respostas fornecidas pelo usuario. ",
+      "repository_link": "https://github.com/ElisbertoJunior/buzzfeed-clone",
+      "test_project_link": "https://buzzfeed-clone-blond.vercel.app/"
     },
     {
       "id": 3,
-      "project_img": "../images/perfil(2).png",
-      "title": "Projeto fulano",
-      "description": "Aqui esta a descricao",
-      "repository_link": "https://github.com/ElisbertoJunior/weather-app",
-      "test_project_link": "https://elisbertojunior.github.io/GitFav/"
+      "project_img": "assets/gifs/focustimer.gif",
+      "title": "Focus Timer",
+      "description": "Contador estilo Pomodoro, construido com JavaScript puro faz a contagem minutos fornecida de pelo usuario. Alem disso possui modo escuro, emiti sons e controle de volume.",
+      "repository_link": "https://github.com/ElisbertoJunior/Pomofocus2.0",
+      "test_project_link": "https://elisbertojunior.github.io/Pomofocus2.0/"
     },
     {
       "id": 4,
-      "project_img": "../images/perfil(2).png",
+      "project_img": "assets/gifs/gameblog.gif",
       "title": "Projeto fulano",
       "description": "Aqui esta a descricao",
       "repository_link": "https://github.com/ElisbertoJunior/weather-app",

@@ -10,7 +10,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectCardComponent implements OnInit {
 
  @Input()
- cardImg: string = ''
+ cardImg:  string=''
 
  @Input()
  CardTitle: string = ''
