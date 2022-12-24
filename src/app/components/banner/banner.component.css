@@ -59,10 +59,24 @@
 
   }
 
+}
+
+@media screen and (max-width: 400px) {
+  .image__container {
+    position: absolute;
+    top: 300px;
 
 
+  }
 
+  .image__container  > img {
+    width: 370px;
+  }
 
+  .title__container {
+    font-size: 1.6rem;
+    width: 100%;
+  }
 
 }
 

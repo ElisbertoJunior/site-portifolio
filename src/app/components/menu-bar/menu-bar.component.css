@@ -78,7 +78,7 @@
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,36,94,1) 36%, rgba(35,104,119,1) 91%);
   position: absolute;
   z-index: 1;
-  top: 88px;
+  top: 75px;
   right: 0%;
 }
 
@@ -128,3 +128,5 @@
     display: flex;
   }
 }
+
+
